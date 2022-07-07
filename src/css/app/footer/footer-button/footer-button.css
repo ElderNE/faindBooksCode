@@ -1,0 +1,22 @@
+.footer-button {
+  height: 20px;
+  width: 100px;
+  margin: 5px;
+  background-color: white;
+  color: gray;
+  border: 0;
+  outline: 0;
+}
+
+.footer-button:hover {
+  color: black;
+}
+
+.footer-button:active {
+  color: white;
+  background-color: black;
+  color: gray;
+  border: 1px solid white;
+  outline: 0;
+
+}

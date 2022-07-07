@@ -1,0 +1,32 @@
+.bigBook-img__margins {
+    margin: 0 0 0 30px;
+}
+
+@media screen and (min-width:992px) {
+    .bigBook-img {
+        width: 41vw;
+        height: 41vw;
+        padding: 5px;
+        margin: 0;
+        background-color: white;
+    }
+}
+@media screen and (min-width:564px) and (max-width:992px) {
+    .bigBook-img {
+        width: 45vw;
+        height: 45vw;
+        margin: 0;
+        padding: 5px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:564px) {
+    .bigBook-img {
+        width: 90vw;
+        height: 45vh;
+        margin: 0 auto;
+        padding: 5px;
+        background-color: white;
+    }
+}

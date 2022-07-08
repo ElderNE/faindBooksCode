@@ -50,9 +50,6 @@ function App(props) {
       getData();
     }
   },[props.fullText, props.startIndex, props.categories, props.sortingBy]);
-
-  //отступ раздела поиск от хедера
-  let main_paddingTop=props.main;
   
   //счетчик книг
   let booksFound = props.jsonContainer.totalItems;
@@ -71,8 +68,7 @@ function App(props) {
   return (
     <>
       <Header booksFound = { booksFound }/>
-      <main className="main x">
-        <style>{`.x{padding-top:${ main_paddingTop }%}`}</style>
+      <main className={"main main__pappingTop"+props.main}>
         <form className="main-search" onSubmit={(e)=>{setSet(); e.preventDefault()}}>
           <div className="main-text">
             <input className="main-input" type="text" maxLength={100} onChange={(e)=>setText(e.target.value)}></input>

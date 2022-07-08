@@ -51,3 +51,11 @@
 .main-text {
   position: relative;
 }
+
+.main__pappingTop1 {
+  padding-top: 1%;
+}
+
+.main__pappingTop20 {
+  padding-top: 20%
+}
